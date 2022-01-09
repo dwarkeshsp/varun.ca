@@ -53,15 +53,15 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
           </Box>
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </Box>
-        <Text mb={5} fontSize={2}>
+        {/* <Text mb={5} fontSize={2}>
           Questions, Comments or Suggestions?{' '}
           <Link
             href={`https://github.com/winkerVSbecks/varun.ca/issues/new?title=${mdx.frontmatter.title}`}
           >
             Open an Issue
           </Link>
-        </Text>
-        <Newsletter />
+        </Text> */}
+        {/* <Newsletter /> */}
         <RelatedPosts posts={pageContext.relatedPosts} />
         {/* <Footer /> */}
       </Box>

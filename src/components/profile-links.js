@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, SimpleLink, SrOnly } from '@ds';
 
 const profileLinks = [
-  { title: 'Subscribe', to: 'https://tinyletter.com/winkerVSbecks' },
+  { title: 'Subscribe', to: 'https://tinyletter.com/dwarkesh' },
   { title: 'Twitter', to: 'http://twitter.com/dwarkesh_sp' },
   // { title: 'Github', to: 'http://github.com/winkerVSbecks' },
   // { title: 'CodePen', to: 'http://codepen.io/winkerVSbecks' },

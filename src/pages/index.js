@@ -8,6 +8,7 @@ import { Footer } from '@components/footer';
 import { WritingFeatured } from '@components/writing-featured';
 import { PodcastFeatured } from '@components/podcast-featured';
 import { CycleMode } from '@components/cycle-mode';
+import { Newsletter } from '@components/newsletter';
 
 const Home = ({ data }) => {
   const {

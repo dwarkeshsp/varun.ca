@@ -15,7 +15,7 @@ const Home = ({ data }) => {
   const {
     site,
     writingFeatured: { posts },
-    speakingFeatured: { speaking },
+    speakingFeatured: { podcast },
     worksFeatured: { works },
     sketchesFeatured: { sketches },
   } = data;
@@ -57,7 +57,7 @@ const Home = ({ data }) => {
           <ProfileLinks />
           <Flex flexWrap="wrap" justifyContent="space-between">
             <WritingFeatured posts={posts} mr={[3, 4]} />
-            <SpeakingFeatured speaking={speaking} mr={3} />
+            <SpeakingFeatured speaking={podcast} mr={3} />
           </Flex>
 
           {/* <WorksFeatured works={works} /> */}
@@ -80,7 +80,7 @@ export const pageQuery = graphql`
     }
 
     writingFeatured: allMdx(
-      limit: 4
+      limit: 5
       sort: { fields: frontmatter___date, order: DESC }
     ) {
       posts: nodes {
@@ -97,11 +97,11 @@ export const pageQuery = graphql`
       }
     }
 
-    speakingFeatured: allSpeakingJson(
-      limit: 4
+    speakingFeatured: allPodcastJson(
+      limit: 5
       filter: { featured: { eq: true } }
     ) {
-      speaking: nodes {
+      podcast: nodes {
         id
         link
         title

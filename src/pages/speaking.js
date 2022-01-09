@@ -20,7 +20,7 @@ const Speaking = ({
 
 export const pageQuery = graphql`
   query Speaking {
-    speaking: allSpeakingJson {
+    speaking: allPodcastJson {
       talks: nodes {
         id
         link

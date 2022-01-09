@@ -3,9 +3,9 @@ import { Stack, Text, Box } from '@ds';
 
 export const SpeakingFeatured = ({ speaking, ...props }) => (
   <Stack {...props}>
-    <Stack.Title to="/speaking">Speaking</Stack.Title>
+    <Stack.Title to="/speaking">Podcast</Stack.Title>
 
-    {speaking.map(talk => (
+    {speaking.map((talk) => (
       <Stack.Item
         key={talk.id}
         to={talk.link || '/'}
@@ -26,6 +26,6 @@ export const SpeakingFeatured = ({ speaking, ...props }) => (
         </Text>
       </Stack.Item>
     ))}
-    <Stack.MoreLink to="/speaking">View all speaking</Stack.MoreLink>
+    <Stack.MoreLink to="/speaking">View all episodes</Stack.MoreLink>
   </Stack>
 );

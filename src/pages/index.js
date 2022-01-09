@@ -29,7 +29,7 @@ const Home = ({ data }) => {
               <Pronunciation />
             </H1>
             <Text mb={0} measure="wide" fontSize={2}>
-              finder of new ways to confuse myself
+              dwarkesh@dwarkeshpatel.com
             </Text>
           </Box>
           <CycleMode />
@@ -37,21 +37,21 @@ const Home = ({ data }) => {
 
         <main>
           <Box as="section" mb={4} px={3}>
-            <H1 mb={1} fontSize={3}>
+            {/* <H1 mb={1} fontSize={3}>
               About
-            </H1>
+            </H1> */}
             <Text measure="wide" fontSize={[2, 3]}>
-              I’m a UI developer specializing in{' '}
-              <Link to="https://componentdriven.org/">component-driven</Link>{' '}
-              development, design systems and generative art. I’m a DX Engineer
-              at <Link to="https://www.chromatic.com/">Chromatic</Link> and a
-              contributor to{' '}
-              <Link to="https://storybook.js.org/">Storybook</Link>.
+              I’m the host of The Lunar Society Podcast (
+              <Link to="https://componentdriven.org/">YouTube</Link>,{' '}
+              <Link to="https://www.chromatic.com/">podcast platforms</Link>)
+              where I interview economists, scientists, philosophers, and
+              builders about their big ideas.
             </Text>
             <Text measure="wide" fontSize={[2, 3]}>
-              Originally from New Delhi, I currently live in Toronto. In my
-              spare time, I write about creative coding from a front-end
-              developer's perspective.
+              I graduated with a CS degree from UT Austin in December 2020.
+              Thanks to the generosity of Sunil and Anil Vazarani, I'm spending
+              the next few months learning about big ideas and emerging
+              technologies.
             </Text>
           </Box>
           <ProfileLinks />
@@ -60,10 +60,10 @@ const Home = ({ data }) => {
             <SpeakingFeatured speaking={speaking} mr={3} />
           </Flex>
 
-          <WorksFeatured works={works} />
-          <SketchesFeatured sketches={sketches} />
+          {/* <WorksFeatured works={works} /> */}
+          {/* <SketchesFeatured sketches={sketches} /> */}
         </main>
-        <Footer px={3} />
+        {/* <Footer px={3} /> */}
       </Box>
     </Layout>
   );

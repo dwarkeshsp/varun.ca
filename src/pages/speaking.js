@@ -9,8 +9,8 @@ const Speaking = ({
     speaking: { talks },
   },
 }) => (
-  <PageLayout title="Speaking" pathname="/speaking" maxWidth={7} px={3}>
-    <PageHeader title="Speaking" />
+  <PageLayout title="Podcast" pathname="/speaking" maxWidth={7} px={3}>
+    <PageHeader title="Podcast" />
 
     <main>
       <TalkList talks={talks} />

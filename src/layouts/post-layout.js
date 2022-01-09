@@ -63,7 +63,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
         </Text>
         <Newsletter />
         <RelatedPosts posts={pageContext.relatedPosts} />
-        <Footer />
+        {/* <Footer /> */}
       </Box>
     </Layout>
   );

@@ -23,8 +23,8 @@ export const Pronunciation = () => {
 
   return (
     <PronunciationContainer as="span">
-      Varun Vachhar
-      <PronunciationButton
+      Dwarkesh Patel
+      {/* <PronunciationButton
         fontSize="inherit"
         fontWeight="inherit"
         aria-label="pronunciation"
@@ -42,7 +42,7 @@ export const Pronunciation = () => {
           width="10px"
           height="10px"
         />
-      </PronunciationButton>
+      </PronunciationButton> */}
     </PronunciationContainer>
   );
 };

@@ -8,6 +8,7 @@ import { GlobalHeader } from '@components/global-header';
 import { RelatedPosts } from '@components/related-posts';
 import { Newsletter } from '@components/newsletter';
 import Layout from './layout';
+import Comments from '@components/comments';
 
 export default function PostLayout({ data: { mdx }, pageContext }) {
   const maxWidth = mdx.frontmatter.maxWidth ? mdx.frontmatter.maxWidth : 7;
@@ -62,7 +63,9 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
           </Link>
         </Text> */}
         {/* <Newsletter /> */}
-        <RelatedPosts posts={pageContext.relatedPosts} />
+        {/* <RelatedPosts posts={pageContext.relatedPosts} /> */}
+        <Comments />
+
         {/* <Footer /> */}
       </Box>
     </Layout>

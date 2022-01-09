@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `varun.ca`,
+        name: `dwarkeshpatel.com`,
         short_name: `starter`,
         start_url: `/`,
         background_color: '#4e4bec',
@@ -59,7 +59,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://varun.ca`,
+        siteUrl: `https://dwarkeshpatel.com`,
       },
     },
     `gatsby-plugin-react-helmet`,

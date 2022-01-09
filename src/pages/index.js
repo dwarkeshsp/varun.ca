@@ -39,9 +39,11 @@ const Home = ({ data }) => {
             </H1> */}
             <Text measure="wide" fontSize={[2, 3]}>
               I’m the host of The Lunar Society Podcast (
-              <Link to="https://componentdriven.org/">YouTube</Link>,{' '}
-              <Link to="https://www.chromatic.com/">podcast platforms</Link>)
-              where I interview economists, scientists, philosophers, and
+              <Link to="https://www.youtube.com/c/DwarkeshPatel">YouTube</Link>,{' '}
+              <Link to="https://anchor.fm/dwarkeshpatel">
+                podcast platforms
+              </Link>
+              ) where I interview economists, scientists, philosophers, and
               builders about their big ideas.
             </Text>
             <Text measure="wide" fontSize={[2, 3]}>
@@ -56,8 +58,8 @@ const Home = ({ data }) => {
             <WritingFeatured posts={posts} mr={[3, 4]} />
             <PodcastFeatured podcast={podcast} mr={3} />
           </Flex>
+          <Footer px={3} />
         </main>
-        {/* <Footer px={3} /> */}
       </Box>
     </Layout>
   );

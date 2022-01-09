@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, FlatList, SimpleLink } from '@ds';
+import { Box, Text, SimpleLink } from '@ds';
 
 const siteLinks = [
   { title: 'About', to: '/' },
@@ -18,7 +18,10 @@ const socialLinks = [
 
 export const Footer = (props) => (
   <Box as="footer" pt={[3, 6]} mb={6} {...props}>
-    Forked from varun.ca
+    <Text>
+      Theme forked from{' '}
+      <SimpleLink to="https://varun.ca/"> varun.ca</SimpleLink>
+    </Text>
   </Box>
 
   //   <FlatList>

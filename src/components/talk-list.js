@@ -3,7 +3,7 @@ import { Box, H2, SimpleLink, FlatList, ListItem, Text, Flex, Icon } from '@ds';
 
 export const TalkList = ({ talks }) => (
   <FlatList>
-    {talks.map(talk => (
+    {talks.map((talk) => (
       <ListItem key={talk.id} mb={0}>
         <Flex borderBottom="faded" alignItems="center" py={3}>
           <Box>
@@ -41,7 +41,7 @@ export const TalkList = ({ talks }) => (
               color="neutral.2"
               to={talk.slides}
             >
-              <Icon type="slides" />
+              <Icon type="audio" />
             </SimpleLink>
           )}
         </Flex>

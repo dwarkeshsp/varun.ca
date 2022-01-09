@@ -16,7 +16,7 @@ export const GlobalHeader = () => (
         fontWeight={7}
         lineHeight="solid"
       >
-        Varun Vachhar
+        Dwarkesh Patel
       </SimpleLink>
       <Text
         color="neutral.3"
@@ -25,7 +25,7 @@ export const GlobalHeader = () => (
         mt={[1, 0]}
         mb={0}
       >
-        finder of new ways to confuse myself
+        dwarkesh@dwarkeshpatel.com
       </Text>
     </Box>
     <Box flex={1} />

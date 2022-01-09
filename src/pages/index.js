@@ -6,18 +6,14 @@ import { Pronunciation } from '@components/pronunciation';
 import { ProfileLinks } from '@components/profile-links';
 import { Footer } from '@components/footer';
 import { WritingFeatured } from '@components/writing-featured';
-import { SpeakingFeatured } from '@components/speaking-featured';
-import { WorksFeatured } from '@components/works-featured';
-import { SketchesFeatured } from '@components/sketches-featured';
+import { PodcastFeatured } from '@components/podcast-featured';
 import { CycleMode } from '@components/cycle-mode';
 
 const Home = ({ data }) => {
   const {
     site,
     writingFeatured: { posts },
-    speakingFeatured: { podcast },
-    worksFeatured: { works },
-    sketchesFeatured: { sketches },
+    podcastFeatured: { podcast },
   } = data;
 
   return (
@@ -57,11 +53,8 @@ const Home = ({ data }) => {
           <ProfileLinks />
           <Flex flexWrap="wrap" justifyContent="space-between">
             <WritingFeatured posts={posts} mr={[3, 4]} />
-            <SpeakingFeatured speaking={podcast} mr={3} />
+            <PodcastFeatured podcast={podcast} mr={3} />
           </Flex>
-
-          {/* <WorksFeatured works={works} /> */}
-          {/* <SketchesFeatured sketches={sketches} /> */}
         </main>
         {/* <Footer px={3} /> */}
       </Box>
@@ -97,7 +90,7 @@ export const pageQuery = graphql`
       }
     }
 
-    speakingFeatured: allPodcastJson(
+    podcastFeatured: allPodcastJson(
       limit: 5
       filter: { featured: { eq: true } }
     ) {
@@ -107,27 +100,6 @@ export const pageQuery = graphql`
         title
         conference
         featured
-      }
-    }
-
-    worksFeatured: allWorksJson(limit: 6) {
-      works: nodes {
-        id
-        name: title
-        link: url
-        image
-      }
-    }
-
-    sketchesFeatured: allSketchesJson(
-      limit: 6
-      filter: { featured: { eq: true } }
-    ) {
-      sketches: nodes {
-        id
-        name
-        link
-        image
       }
     }
   }

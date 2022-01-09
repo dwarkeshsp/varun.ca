@@ -4,12 +4,12 @@ import { PageHeader } from '@ds';
 import PageLayout from '@layouts/page-layout';
 import { TalkList } from '@components/talk-list';
 
-const Speaking = ({
+const Podcast = ({
   data: {
-    speaking: { talks },
+    podcast: { talks },
   },
 }) => (
-  <PageLayout title="Podcast" pathname="/speaking" maxWidth={7} px={3}>
+  <PageLayout title="Podcast" pathname="/podcast" maxWidth={7} px={3}>
     <PageHeader title="Podcast" />
 
     <main>
@@ -19,8 +19,8 @@ const Speaking = ({
 );
 
 export const pageQuery = graphql`
-  query Speaking {
-    speaking: allPodcastJson {
+  query Podcast {
+    podcast: allPodcastJson {
       talks: nodes {
         id
         link
@@ -33,4 +33,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default Speaking;
+export default Podcast;

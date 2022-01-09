@@ -1,11 +1,11 @@
 import React from 'react';
 import { Stack, Text, Box } from '@ds';
 
-export const SpeakingFeatured = ({ speaking, ...props }) => (
+export const PodcastFeatured = ({ podcast, ...props }) => (
   <Stack {...props}>
-    <Stack.Title to="/speaking">Podcast</Stack.Title>
+    <Stack.Title to="/podcast">Podcast</Stack.Title>
 
-    {speaking.map((talk) => (
+    {podcast.map((talk) => (
       <Stack.Item
         key={talk.id}
         to={talk.link || '/'}
@@ -26,6 +26,6 @@ export const SpeakingFeatured = ({ speaking, ...props }) => (
         </Text>
       </Stack.Item>
     ))}
-    <Stack.MoreLink to="/speaking">View all episodes</Stack.MoreLink>
+    <Stack.MoreLink to="/podcast">View all episodes</Stack.MoreLink>
   </Stack>
 );

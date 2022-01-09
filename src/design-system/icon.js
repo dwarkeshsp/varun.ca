@@ -7,7 +7,7 @@ export const Icon = ({ type, ...props }) => {
 };
 
 const iconsMap = {
-  speaker: props => (
+  speaker: (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 24 24" {...props}>
       <path
         fill="currentColor"
@@ -15,7 +15,7 @@ const iconsMap = {
       />
     </SVG>
   ),
-  'chevron-left': props => (
+  'chevron-left': (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 20 20" {...props}>
       <path
         fill="currentColor"
@@ -24,7 +24,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  'chevron-right': props => (
+  'chevron-right': (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 20 20" {...props}>
       <path
         fill="currentColor"
@@ -33,7 +33,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  'arrow-right': props => (
+  'arrow-right': (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 20 20" {...props}>
       <path
         fill="currentColor"
@@ -42,7 +42,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  'arrow-left': props => (
+  'arrow-left': (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 20 20" {...props}>
       <path
         fill="currentColor"
@@ -51,7 +51,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  github: props => (
+  github: (props) => (
     <SVG width="1em" height="1em" viewBox="0 0 16 16" {...props}>
       <path
         fill="currentColor"
@@ -61,7 +61,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  slides: props => (
+  slides: (props) => (
     <SVG
       width="1em"
       height="1em"
@@ -84,7 +84,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  video: props => (
+  video: (props) => (
     <SVG
       width="1em"
       height="1em"
@@ -101,7 +101,24 @@ const iconsMap = {
     </SVG>
   ),
 
-  link: props => (
+  audio: (props) => (
+    <svg
+      width="1em"
+      height="1em"
+      viewBox="0 0 48 48"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title>ONE-xicons</title>
+      <path d="M40.5,48c-3,0-5.5-2.92-5.5-6.5v-8c0-3.58,2.47-6.5,5.5-6.5A5.31,5.31,0,0,1,45,29.77V22A21,21,0,0,0,3,22v7.77A5.31,5.31,0,0,1,7.5,27c3,0,5.5,2.92,5.5,6.5v8c0,3.58-2.47,6.5-5.5,6.5S2,45.08,2,41.5V22a22,22,0,0,1,44,0V41.5C46,45.08,43.53,48,40.5,48Zm0-20C38,28,36,30.47,36,33.5v8c0,3,2,5.5,4.5,5.5S45,44.53,45,41.5v-8C45,30.47,43,28,40.5,28ZM3,33.5v8c0,3,2,5.5,4.5,5.5S12,44.53,12,41.5v-8c0-3-2-5.5-4.5-5.5S3,30.47,3,33.5Z" />
+    </svg>
+  ),
+
+  link: (props) => (
     <SVG
       width="1em"
       height="1em"
@@ -118,7 +135,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  externalLink: props => (
+  externalLink: (props) => (
     <SVG
       xmlns="http://www.w3.org/2000/svg"
       width="1em"
@@ -137,7 +154,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  themeMode: props => (
+  themeMode: (props) => (
     <SVG
       viewBox="0 0 32 32"
       fill="currentcolor"

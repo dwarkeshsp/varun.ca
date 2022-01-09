@@ -1,0 +1,83 @@
+---
+title: "Book Review: Reinventing Discovery"
+date: 2022-01-07T10:43:32-06:00
+draft: true
+---
+
+In an idea-based growth model, economic growth = research productivity x number of researchers. You would think that the creation of the internet would have massively boosted research productivity - researchers can collaborate with each other and share ideas and data like never before. They can quickly get new researchers and even citizen scientists up to speed and ready to contribute by putting out wikis and other explainer content. They can parallelize scientific projects by distributing subtasks to scientists around the world based on their individual comparative advantage [fix].  But research productivity keeps declining - fast:
+
+> research productivity declines at an average rate of 5.3 percent per year, meaning that it takes around 13 years for research productivity to fall by half. Or put another way, the economy has to double its research efforts every 13 years just to maintain the same overall rate of economic growth.
+>
+> Bloom et al., [Are Ideas Getting Harder to Find?](https://web.stanford.edu/~chadj/IdeaPF.pdf) (2020)
+
+To understand why the internet didn't boost research productivity, and how it might, I read *Reinventing Discovery* by Michael Neilson.
+
+Nielson thinks that the internet allows us to create tools for scientific collaboration 
+
+He desci
+
+Nielson thinks that we are stuck in an [inadequate equilibrium](https://equilibriabook.com/) where scientists are not incentivized to make the unsexy contributions which would help the scientific community as a whole. For example, when Caltech PhD student John Stockton decided to create a wiki for new results, open problems, and best practices in quantum computing, many scientists thought this was a promising idea. They believed it would help researchers stay up to date with adjacent areas and get students caught up with the frontiers of knowledge. However, almost none of them were actually willing to contribute to the wiki - named qwiki, short for quantum wiki:
+
+> I heard some people express optimism that the qwiki might do for the specialist knowledge of quantum computing what Wikipedia and Google have done for general knowledge. Unfortunately, that optimism didn’t translate into a willingness by those people to contribute. Instead, they hoped someone else would take the lead. **After all, why contribute to the qwiki when you could be doing something more useful to your own career, like writing a paper or a grant? Why share your latest and best ideas on the qwiki, when that would only help your competitors?** And why contribute to the qwiki when it was still in its beginning stages, and it wasn’t yet clear whether it would flourish?
+
+How do you change the incentives and culture of academia so that projects like qwiki succeed? More generally, how do you make sure that scientists share their data, communicate tacit knowledge, and set Nielson identifies a few strategies throughout the book:
+
+1. 
+
+This sounds really hard, but Nielson explains 
+
+scientists like Galileo used proto-hash functions in order to 
+
+
+
+> Eager to claim the credit for his new discovery [of the rings of Saturn], Galileo immediately sent out letters to several of his colleagues, including his great colleague and rival, the astronomer Johannes Kepler. Galileo’s letter to Kepler (and his other colleagues) was peculiar. Instead of explaining forthrightly what he had seen, Galileo explained that he would describe his latest discovery in the form of an anagram:
+>
+> > smaismrmilmepoetaleumibunenugttauiras
+>
+> **By sending this anagram, Galileo avoided revealing the details of his discovery, but at the same time ensured that if someone else—such as Kepler—later made the same discovery, Galileo could reveal the anagram and claim the credit. This bought him time in which he alone could build upon the discovery** ... the anagram was the Latin “Altissimum planetam tergeminum observavi,” meaning, roughly, that he had observed the highest of the planets (Saturn) to be three-formed.
+
+-
+
+I still don't understand why researcher productivity is percipitously declining. Nothing about his account of the present implies things are getting worse - at best, he can explain 
+
+However, a centralized computer system assigning work to each scientist according to his
+
+You might worry that it would be infeasible to build a prediction market for chess, since the number of possible moves is greater than $$10^40$$. However, the prediction market would only allow bets for the moves possible during a single turn. For each possible move, speculators 
+
+-
+
+It seems to me that networked science can significantly speed up research efforts which are analogous to NP-hard problems in computational complexity. [^5]These are problems for which it is hard to find a solution, but once a solution has been found, it is easy to confirm whether or not it is correct. Consider the Polymath Project which Neilson discusses at length in the book:
+
+[^5]: I am using NP-hardness metaphorically. I am not claiming that these research problems are literally NP-hard.  
+
+> In January 2009, [mathematician Tim] Gowers decided to use his blog to run a very unusual social experiment. He picked out an important and difficult unsolved mathematical problem, a problem he said he’d “love to solve.” But instead of attacking the problem on his own, or with a few close colleagues, he decided to attack the problem completely in the open, using his blog to post ideas and partial progress. What’s more, he issued an open invitation asking other people to help out. Anyone could follow along and, if they had an idea, explain it in the comments section of the blog. Gowers hoped that many minds would be more powerful than one, that they would stimulate each other with different expertise and perspectives, and collectively make easy work of his hard mathematical problem. He dubbed the experiment the Polymath Project.
+>
+> The Polymath Project got off to a slow start. Seven hours after Gowers opened up his blog for mathematical discussion, not a single person had commented. Then a mathematician named Jozsef Solymosi from the University of British Columbia posted a comment suggesting a variation on Gowers’s problem, a variation which was easier, but which Solymosi thought might throw light on the original problem. Fifteen minutes later, an Arizona high-school teacher named Jason Dyer chimed in with a thought of his own. And just three minutes after that, UCLA mathematician Terence Tao—like Gowers, a Fields medalist—added a comment. The comments erupted: over the next 37 days, 27 people wrote 800 mathematical comments, containing more than 170,000 words. Reading through the comments you see ideas proposed, refined, and discarded, all with incredible speed. You see top mathematicians making mistakes, going down wrong paths, getting their hands dirty following up the most mundane of details, relentlessly pursuing a solution. And through all the false starts and wrong turns, you see a gradual dawning of insight. Gowers described the Polymath process as being “to normal research as driving is to pushing a car.” Just 37 days after the project began Gowers announced that he was confident the polymaths had solved not just his original problem, but a harder problem that included the original as a special case.
+
+Mathematical proofs of this sort are the perfect example of the hard-to-solve but easy-to-verify problems which collaborative online science can excel at. Writing up a mathematical argument which will advance the group's insight into the problem is an incredibly hard thing to do. Participants can explore different branches of the proof space in parallel, and when one of them finds a promising path, he can explain his steps to the group. Once the group sees this comment, they can quickly check if the steps are valid and whether they lead to an interesting result. Rinse and repeat until you arrive at the final proof. [fix]
+
+You might be wondering if a process like the Polymath Project can be scaled. Reading the [actual](https://gowers.wordpress.com/2009/02/01/a-combinatorial-approach-to-density-hales-jewett/) [comment](https://gowers.wordpress.com/2009/02/06/dhj-the-triangle-removal-approach/) [sections](https://terrytao.wordpress.com/2009/02/05/upper-and-lower-bounds-for-the-density-hales-jewett-problem/) where they hashed out the solution, I'm a bit skeptical. Don't get me wrong, it's incredibly inspiring to see some of the top mathematicians in the world debating math proofs at 2 AM as if they're on supergenius edition of Reddit. But Nielson makes it sound as if there are dozens of people around the world from all walks of life actively contributing to this thread, whereas the overwhelming majority of comments only came from eight or so people, two of whom have a Fields medal.  Functionally, this project wasn't that much different from an email chain between the coauthors of a paper.
+
+And that is probably for the best. As Nadia Eghbal explains in her new book, *Working In Public*, open source software shows that by encouraging contributions from community members (or "citizen scientists" in Nielson's terminology) often increases, not decreases, the burdens for maintainers. Just like in the case of the Polymath Project, the quantity and value of contributions to open source repositories follows a power law, where a small minority does most of the work and the rest strains this group with overwhelming amounts of feature requests and useless code.
+
+> There are countless initiatives today aimed at helping more developers contribute to open source projects. These efforts are widely championed as “good for open source,” and they are frequently accomplished by tapping into a public sense of goodwill.
+>
+> However, in speaking to maintainers privately, I learned that these initiatives frequently cause them to seize with anxiety, because such initiatives often attract low-quality contributions. This creates more work for maintainers—all contributions, after all, must be reviewed before they are accepted. Maintainers frequently lack infrastructure to bring these contributors into a “contributor community”
+>
+> Nadia Eghbal, *Working In Public*
+
+Nielson discusses many cases in the book of projects which employ thousands of volunteers as citizen scientists to complete projects 
+
+- bad incentives explain why people aren't contributing to wikis. they need to write papers, hoard data and ideas
+  - we're stuck in an inadequate equilbrium
+  - ways to solve
+    - change culture of reputation so it's part of their job to share shit
+    - give grants, tenure based on engagement with oublic
+
+
+
+
+
+When I interned for a research lab, my boss told me that if in twenty years we're still doing science by exchanging PDFs with 
+
+So what exactly does a reinvented system of conducting science look like? There, the book is short on details.

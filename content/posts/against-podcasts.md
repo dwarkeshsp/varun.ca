@@ -1,0 +1,21 @@
+---
+title: "Against Podcasts"
+date: 2022-01-05T16:47:34-06:00
+draft: true
+---
+
+> [**Senior demon Screwtape**:] Music and silence—how I detest them both! How thankful we should be that ever since our Father entered Hell—though longer ago than humans, reckoning in light years, could express—no square inch of infernal space and no moment of infernal time has been surrendered to either of those abominable forces, but all has been occupied by Noise—Noise, the grand dynamism, the audible expression of all that is exultant, ruthless, and virile—Noise which alone defends us from silly qualms, despairing scruples, and impossible desires. We will make the whole universe a noise in the end. We have already made great strides in this direction as regards the Earth. The melodies and silences of Heaven will be shouted down in the end.
+>
+> C.S. Lewis, The Screwtape Letters
+
+
+
+Sam Harris, Tim Ferris, and Joe Rogan are not your friends - they don't even know you exist. What's more, I guarantee you that they are not spending a big chunk of their day listening to recording of people droning on about wokeness or productivity or  
+
+I'm struck by how often the podcast I'm listening to is so uninteresting that if the conversation were actually taking place in front of me, I would feel exhausted by the social obligation of pretending to be engaged, and I would figure out some way to leave the room. But this raises the question - why do I have so many hours of my day f
+
+If you feel that actually have a job or a lifestyle where you can plug in a monologue
+
+---
+
+As you might know, I have a podcast. 

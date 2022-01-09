@@ -17,7 +17,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
       title={mdx.frontmatter.title}
       description={mdx.excerpt}
       pathname={mdx.fields.slug}
-      image={mdx.frontmatter.image ? mdx.frontmatter.image.url : null}
+      // image={mdx.frontmatter.image ? mdx.frontmatter.image.url : null}
       meta={[
         {
           name: `author`,
@@ -79,10 +79,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "Do MMMM, YYYY")
         timestamp: date
-        image {
-          url: publicURL
-        }
-        maxWidth
       }
       fields {
         slug

@@ -52,6 +52,8 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
               {mdx.frontmatter.title}
             </H1>
           </Box>
+          <Newsletter />
+
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </Box>
         {/* <Text mb={5} fontSize={2}>

@@ -9,15 +9,15 @@ export const Newsletter = () => (
     as="form"
     bg="neutral.6"
     p={4}
-    action="https://tinyletter.com/winkerVSbecks"
+    action="https://tinyletter.com/dwarkesh"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/winkerVSbecks', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+    onsubmit="window.open('https://tinyletter.com/dwarkesh', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
   >
     <input type="hidden" value="1" name="embed" />
 
-    <Box mb={4}>
-      <H3 fontSize={3} mb={2} mt={0}>
+    {/* <Box mb={4}> */}
+    {/* <H3 fontSize={3} mb={2} mt={0}>
         Creative coding from a front-end developer's perspective
       </H3>
 
@@ -30,7 +30,7 @@ export const Newsletter = () => (
         Hear about what's got my attention—new tools and techniques I've picked
         up. Experiments I'm working on. And previews of upcoming posts.
       </Text>
-    </Box>
+    </Box> */}
 
     <SrOnly as="label" htmlFor="tlemail">
       Enter your email address

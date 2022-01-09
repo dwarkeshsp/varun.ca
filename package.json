@@ -3,7 +3,7 @@
   "private": true,
   "description": "finder of new ways to confuse myself",
   "version": "0.1.0",
-  "author": "Varun Vachhar <varunvachhar@gmail.com>",
+  "author": "Dwarkesh Patel",
   "dependencies": {
     "@codesandbox/sandpack-react": "^0.1.15",
     "@loadable/component": "^5.14.1",

@@ -23,11 +23,10 @@ export const pageQuery = graphql`
     podcast: allPodcastJson {
       talks: nodes {
         id
-        link
+        video
         title
-        conference
-        featured
-        slides
+        audio
+        date(formatString: "Do MMMM, YYYY")
       }
     }
   }

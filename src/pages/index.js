@@ -90,16 +90,13 @@ export const pageQuery = graphql`
       }
     }
 
-    podcastFeatured: allPodcastJson(
-      limit: 5
-      filter: { featured: { eq: true } }
-    ) {
+    podcastFeatured: allPodcastJson(limit: 5) {
       podcast: nodes {
         id
-        link
+        video
+        audio
         title
-        conference
-        featured
+        date(formatString: "Do MMMM, YYYY")
       }
     }
   }

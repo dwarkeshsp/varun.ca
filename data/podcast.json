@@ -1,66 +1,116 @@
 [
   {
-    "title": "Building & Maintaining a Design System",
-    "conference": "DevTO 2019",
-    "link": "https://www.youtube.com/watch?v=aqNNU6kn1R0",
-    "featured": true
+    "title": "Discussing Where's My Flying Car w/ Rohit Krishnan",
+    "date": "2022-01-03",
+    "video": "https://www.youtube.com/watch?v=6221PKJLwQ8",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/19-Discussing-Wheres-My-Flying-Car-w-Rohit-Krishnan-e1cdg1m"
   },
   {
-    "title": "Cut it Up",
-    "conference": "Web Unleashed 2019",
-    "link": "https://fitc.ca/presentation/cut-it-up/",
-    "featured": true
+    "title": "Byrne Hobart - Optionality, Stagnation, and Secret Societies",
+    "date": "2021-10-05",
+    "video": "https://www.youtube.com/watch?v=ZI_tDsOhd5I",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/18-Byrne-Hobart---Optionality--Stagnation--and-Secret-Societies-e17vpac"
   },
   {
-    "title": "Mathematics of Animation",
-    "conference": ".concat() 2018",
-    "link": "https://www.youtube.com/watch?v=o59ioaZ6x3g",
-    "slides": "https://winkervsbecks.github.io/mathematics-of-animation",
-    "featured": true
+    "title": "Roger's Bacon - Using Cults to Power Science",
+    "date": "2021-09-28",
+    "video": "https://www.youtube.com/watch?v=T7i8ThJhxh0",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/17-Rogers-Bacon---Using-Cults-to-Power-Science-e17vk1b"
   },
   {
-    "title": "Slaying Your Webpack Dragon",
-    "conference": "CSS Dev Conf 2017",
-    "link": "https://winkervsbecks.github.io/slaying-your-webpack-dragon",
-    "slides": "https://winkervsbecks.github.io/slaying-your-webpack-dragon",
-    "featured": true
+    "title": "David Friedman - Dating Markets, Legal Systems, Bitcoin, and Automation",
+    "date": "2021-08-09",
+    "video": "https://www.youtube.com/watch?v=3svashDgB50",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/16-David-Friedman---Dating-Markets--Legal-Systems--Bitcoin--and-Automation-e15m02b"
   },
   {
-    "title": "Mathematics of Animation",
-    "conference": "FITC Toronto 2017",
-    "link": "https://www.youtube.com/watch?v=tBzmc98_STE",
-    "slides": "https://github.com/winkerVSbecks/mathematics-of-animation/tree/v1.0",
-    "featured": false
+    "title": "Sarah Fitz-Claridge - Taking Children Seriously",
+    "date": "2021-06-04",
+    "video": "https://www.youtube.com/watch?v=BV6Qice6Lrc",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/15-Sarah-Fitz-Claridge---Taking-Children-Seriously-e125ras"
   },
   {
-    "title": "A Round Table on The State of Front-End: (Ember, Angular, React)",
-    "conference": "Web Unleashed 2016",
-    "featured": false
+    "title": "Michael Huemer - Anarchy, Capitalism, and Progress",
+    "date": "2021-05-28",
+    "video": "https://www.youtube.com/watch?v=--xKsIgv7tE",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/14-Michael-Huemer---Anarchy--Capitalism--and-Progress-e11pav5"
   },
   {
-    "title": "Workshop: Angular 2",
-    "slides": "https://angular-2-training-book.rangle.io",
-    "conference": "Web Unleashed 2016",
-    "featured": false
+    "title": "Uncle Bob - The Long Reach of Code",
+    "date": "2020-11-27",
+    "video": "https://www.youtube.com/watch?v=ldTPVd3vO9Q",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/13-Uncle-Bob---The-Long-Reach-of-Code-en2hsr"
   },
   {
-    "title": "Creative Coding with React & SVG",
-    "conference": "FITC Toronto 2016",
-    "link": "https://www.youtube.com/watch?v=D40JphLwqpk",
-    "slides": "http://winkervsbecks.github.io/creative-coding-with-react-svg",
-    "featured": true
+    "title": "Scott Aaronson - Quantum Computing, Complexity, and Creativity",
+    "date": "2020-11-20",
+    "video": "https://www.youtube.com/watch?v=Uy5fvwdw8x4",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/12-Scott-Aaronson---Quantum-Computing--Complexity--and-Creativity-emomb7"
   },
   {
-    "title": "Intro To React Native",
-    "conference": "Spotlight React 2016",
-    "link": "https://www.youtube.com/watch?v=5qYxYpbaR5k",
-    "slides": "http://winkervsbecks.github.io/intro-to-react-native/#/?_k=ju7s1d",
-    "featured": true
+    "title": "Scott Young - Ultralearning",
+    "date": "2020-11-16",
+    "video": "https://www.youtube.com/watch?v=R5sBycV80c8",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/11-Scott-Young---Ultralearning-emihhq"
   },
   {
-    "title": "Squishy Pixels",
-    "conference": "Web Unleashed 2014",
-    "link": "https://www.youtube.com/watch?v=OrCOZwQLeIA",
-    "featured": false
+    "title": "Charles Murray - Human Accomplishment and the Future of Liberty",
+    "date": "2020-10-28",
+    "video": "https://www.youtube.com/watch?v=yYtyKmPZBto",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/10-Charles-Murray---Human-Accomplishment-and-the-Future-of-Liberty-elmm5r"
+  },
+  {
+    "title": "Alex Tabarrok - Prizes, Prices, and Public Goods",
+    "date": "2020-10-19",
+    "video": "https://www.youtube.com/watch?v=i75KvXVrtLw",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/9-Alex-Tabarrok---Prizes--Prices--and-Public-Goods-el9mdk"
+  },
+  {
+    "title": "Caleb Watney - America's Innovation Engine",
+    "date": "2020-09-04",
+    "video": "https://www.youtube.com/watch?v=Ayewh_O0LPQ",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/8-Caleb-Watney---Americas-Innovation-Engine-ej403o"
+  },
+  {
+    "title": "Robin Hanson - The Long View",
+    "date": "2020-08-31",
+    "video": "https://www.youtube.com/watch?v=aagyRGKv66g",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/7-Robin-Hanson---The-Long-View-eit6ru"
+  },
+  {
+    "title": "Jason Crawford - The Roots of Progress",
+    "date": "2020-08-25",
+    "video": "https://www.youtube.com/watch?v=otyrj5SnS4I",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/6-Jason-Crawford---The-Roots-of-Progress-eikb0l"
+  },
+  {
+    "title": "Matjaž Leonardis - Science, Identity, and Probability",
+    "date": "2020-08-21",
+    "video": "https://www.youtube.com/watch?v=fTfDZO-p5Fo",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/5-Matja-Leonardis---Science--Identity--and-Probability-eig342"
+  },
+  {
+    "title": "Tyler Cowen - The Great Reset",
+    "date": "2020-07-10",
+    "video": "https://www.youtube.com/watch?v=ayUZreGysTo",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/4-Tyler-Cowen---The-Great-Reset-egii06"
+  },
+  {
+    "title": "Paul Frazee (Creator of BeakerBrowser) - Building the Future of the Web",
+    "date": "2020-06-12",
+    "video": "https://www.youtube.com/watch?v=dQPky5DgRlI",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/3-Paul-Frazee-Creator-of-BeakerBrowser---Building-the-Future-of-the-Web-efbiib"
+  },
+  {
+    "title": "Charlie Jungheim (aka Hermes of Reason) - Reason and Emotion",
+    "date": "2020-06-08",
+    "video": "https://www.youtube.com/watch?v=gqSqZDxopE4",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/2-Charlie-Jungheim-aka-Hermes-of-Reason---Reason-and-Emotion-ef5sqn"
+  },
+  {
+    "title": "Bryan Caplan - Nurturing Orphaned Ideas",
+    "date": "2020-05-22",
+    "video": "https://www.youtube.com/watch?v=r4AkTmqvWzM",
+    "audio": "https://anchor.fm/dwarkeshpatel/episodes/1-Bryan-Caplan---Nurturing-Orphaned-Ideas-eee2eb"
   }
 ]

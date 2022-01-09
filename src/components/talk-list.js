@@ -8,14 +8,14 @@ export const TalkList = ({ talks }) => (
         <Flex borderBottom="faded" alignItems="center" py={3}>
           <Box>
             <Text mb={1} lineHeight="solid" color="neutral.2" fontSize={0}>
-              {talk.conference}
+              {talk.date}
             </Text>
-            <H2 mb={0} fontSize={2} fontWeight={5} to={talk.link}>
+            <H2 mb={0} fontSize={2} fontWeight={5} to={talk.video}>
               {talk.title}
             </H2>
           </Box>
           <Box flex="1" />
-          {talk.link && (
+          {talk.video && (
             <SimpleLink
               display="block"
               mb={0}
@@ -24,12 +24,12 @@ export const TalkList = ({ talks }) => (
               fontSize={1}
               title="video"
               color="neutral.2"
-              to={talk.link}
+              to={talk.video}
             >
               <Icon type="video" />
             </SimpleLink>
           )}
-          {talk.slides && (
+          {talk.audio && (
             <SimpleLink
               display="block"
               ml={2}
@@ -37,9 +37,9 @@ export const TalkList = ({ talks }) => (
               p={2}
               lineHeight="solid"
               fontSize={1}
-              title="slides"
+              title="audio"
               color="neutral.2"
-              to={talk.slides}
+              to={talk.audio}
             >
               <Icon type="audio" />
             </SimpleLink>

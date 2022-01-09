@@ -16,31 +16,33 @@ const socialLinks = [
   { title: 'Newsletter', to: 'https://tinyletter.com/winkerVSbecks' },
 ];
 
-export const Footer = props => (
+export const Footer = (props) => (
   <Box as="footer" pt={[3, 6]} mb={6} {...props}>
-    <FlatList>
-      {siteLinks.map(link => (
-        <Text key={link.to} as="li" display="inline-block" mb={0} mr={3}>
-          <SimpleLink
-            letterSpacing="tracked"
-            display="block"
-            fontWeight={7}
-            fontSize={1}
-            to={link.to}
-          >
-            {link.title}
-          </SimpleLink>
-        </Text>
-      ))}
-    </FlatList>
-    <FlatList display="block" mb={0}>
-      {socialLinks.map(link => (
-        <Text key={link.to} as="li" display="inline-block" mb={0} mr={3}>
-          <SimpleLink display="block" fontSize={1} to={link.to}>
-            {link.title}
-          </SimpleLink>
-        </Text>
-      ))}
-    </FlatList>
+    Forked from varun.ca
   </Box>
+
+  //   <FlatList>
+  //     {siteLinks.map(link => (
+  //       <Text key={link.to} as="li" display="inline-block" mb={0} mr={3}>
+  //         <SimpleLink
+  //           letterSpacing="tracked"
+  //           display="block"
+  //           fontWeight={7}
+  //           fontSize={1}
+  //           to={link.to}
+  //         >
+  //           {link.title}
+  //         </SimpleLink>
+  //       </Text>
+  //     ))}
+  //   </FlatList>
+  //   <FlatList display="block" mb={0}>
+  //     {socialLinks.map(link => (
+  //       <Text key={link.to} as="li" display="inline-block" mb={0} mr={3}>
+  //         <SimpleLink display="block" fontSize={1} to={link.to}>
+  //           {link.title}
+  //         </SimpleLink>
+  //       </Text>
+  //     ))}
+  //   </FlatList>
 );

@@ -61,7 +61,7 @@ const iconsMap = {
     </SVG>
   ),
 
-  slides: (props) => (
+  audio: (props) => (
     <SVG
       width="1em"
       height="1em"

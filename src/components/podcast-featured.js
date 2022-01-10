@@ -10,7 +10,7 @@ export const PodcastFeatured = ({ podcast, ...props }) => (
         <Box measure="wide" mr={3} flex="1 1 auto" truncate>
           {talk.title}
         </Box>
-        {talk.video && (
+        {/* {talk.video && (
           <SimpleLink
             display="block"
             ml={0}
@@ -24,8 +24,8 @@ export const PodcastFeatured = ({ podcast, ...props }) => (
           >
             <Icon type="video" />
           </SimpleLink>
-        )}
-        {talk.audio && (
+        )} */}
+        {/* {talk.audio && (
           <SimpleLink
             display="block"
             ml={0}
@@ -39,7 +39,7 @@ export const PodcastFeatured = ({ podcast, ...props }) => (
           >
             <Icon type="audio" />
           </SimpleLink>
-        )}
+        )} */}
         {/* <Text
           as="span"
           mb={0}

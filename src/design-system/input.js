@@ -4,7 +4,7 @@ import { Box } from './primitives';
 
 export const Input = styled(Box).attrs({
   as: 'input',
-  fontFamily: 'systemSans',
+  fontFamily: 'Merriweather',
 })`
   ${compose(typography)}
   appearance: none;
@@ -13,7 +13,7 @@ export const Input = styled(Box).attrs({
 
   &:focus {
     outline: 0;
-    border-color: ${props => props.theme.colors.neutral[4]};
+    border-color: ${(props) => props.theme.colors.neutral[4]};
   }
 `;
 

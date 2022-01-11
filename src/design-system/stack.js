@@ -11,8 +11,8 @@ const StackTitleLink = styled(Flex)`
 
   ${SVG} {
     opacity: 0;
-    transition: opacity ${props => props.theme.animations.easeIn},
-      transform ${props => props.theme.animations.easeInOut};
+    transition: opacity ${(props) => props.theme.animations.easeIn},
+      transform ${(props) => props.theme.animations.easeInOut};
   }
 
   :hover ${SVG}, :focus ${SVG}, :active ${SVG} {
@@ -23,10 +23,10 @@ const StackTitleLink = styled(Flex)`
 StackTitleLink.defaultProps = {
   as: 'a',
   color: 'neutral.0',
-  fontFamily: 'systemSans',
+  fontFamily: 'Merriweather',
 };
 
-const StackItem = props => (
+const StackItem = (props) => (
   <SimpleLink
     display="flex"
     fontSize={3}
@@ -38,7 +38,7 @@ const StackItem = props => (
   />
 );
 
-const StackTitle = props => (
+const StackTitle = (props) => (
   <H1 mb={0}>
     <Link
       as={StackTitleLink}
@@ -68,8 +68,8 @@ const StackMoreLink = ({ children, ...props }) => (
   </Link>
 );
 
-export const Stack = props => (
-  <Box as="section" measure="wide" width="34em" ml={3} mb={6} {...props} />
+export const Stack = (props) => (
+  <Box as="section" measure="wide" width="34em" ml={3} mb={3} {...props} />
 );
 
 Stack.Item = StackItem;

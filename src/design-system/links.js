@@ -6,20 +6,20 @@ import { typographyFunctions } from './typography';
 const StyledLink = styled.a`
   ${typographyFunctions}
   opacity: 1;
-  transition: color ${props => props.theme.animations.easeIn};
+  transition: color ${(props) => props.theme.animations.easeIn};
   text-decoration: none;
 
   :hover,
   :focus,
   :active {
     text-decoration: underline;
-    text-decoration-color: ${props => props.theme.colors.brand.faded};
+    text-decoration-color: ${(props) => props.theme.colors.brand.faded};
   }
 `;
 StyledLink.defaultProps = {
   as: 'a',
   color: 'brand.main',
-  fontFamily: 'systemSans',
+  fontFamily: 'Merriweather',
 };
 
 export const Link = ({ to = '', href, as = StyledLink, ...props }) => {
@@ -51,7 +51,7 @@ export const SimpleLink = styled(Link)`
   :hover,
   :focus,
   :active {
-    color: ${props => props.theme.colors.brand.main};
+    color: ${(props) => props.theme.colors.brand.main};
     text-decoration: none;
   }
 `;

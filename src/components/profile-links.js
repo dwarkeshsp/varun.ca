@@ -12,7 +12,7 @@ const profileLinks = [
 ];
 
 export const ProfileLinks = () => (
-  <Box as="nav" mb={6}>
+  <Box as="nav" mb={4}>
     <SrOnly as="h2">profile links</SrOnly>
     {profileLinks.map((link) => (
       <SimpleLink

@@ -22,7 +22,7 @@ export const typographyFunctions = compose(
 
 export const defaultTypeProps = {
   mt: 0,
-  fontFamily: 'systemSans',
+  fontFamily: 'Merriweather',
   color: 'neutral.0',
 };
 
@@ -59,7 +59,7 @@ const HeadingBase = styled(Text)`
     display: inline-block;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: ${props => props.theme.colors.neutral[2]};
+    stroke: ${(props) => props.theme.colors.neutral[2]};
   }
 
   .heading-anchor:focus {

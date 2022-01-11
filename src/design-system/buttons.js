@@ -3,9 +3,9 @@ import { compose, typography, buttonStyle } from 'styled-system';
 import { SimpleLink } from './links';
 import { Box } from './primitives';
 
-export const Button = styled(Box).attrs(props => ({
+export const Button = styled(Box).attrs((props) => ({
   as: 'button',
-  fontFamily: 'systemSans',
+  fontFamily: 'Merriweather',
 }))(
   {
     appearance: 'none',
@@ -63,7 +63,7 @@ TransparentButton.defaultProps = {
   p: 0,
 };
 
-export const ButtonLink = styled(SimpleLink)(props => ({
+export const ButtonLink = styled(SimpleLink)((props) => ({
   textTransform: 'uppercase',
   letterSpacing: '0.05em',
   paddingTop: props.theme.space[3] * 0.75,

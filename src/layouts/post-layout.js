@@ -28,7 +28,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
     >
       <Box maxWidth={maxWidth} mx="auto" px={[3, 4, 3]}>
         <GlobalHeader />
-        <Box as="article" my={6}>
+        <Box as="article" my={4}>
           <Newsletter />
 
           <Flex>

@@ -18,17 +18,19 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
       title={mdx.frontmatter.title}
       description={mdx.excerpt}
       pathname={mdx.fields.slug}
-      // image={mdx.frontmatter.image ? mdx.frontmatter.image.url : null}
+      image={mdx.frontmatter.image ? mdx.frontmatter.image.url : null}
       meta={[
         {
           name: `author`,
-          content: 'Varun Vachhar',
+          content: 'Dwarkesh Patel',
         },
       ]}
     >
       <Box maxWidth={maxWidth} mx="auto" px={[3, 4, 3]}>
         <GlobalHeader />
         <Box as="article" my={6}>
+          <Newsletter />
+
           <Flex>
             <SimpleLink
               color="neutral.2"
@@ -43,7 +45,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
               ← writing
             </SimpleLink>
           </Flex>
-          <Box as="header" mb={6}>
+          <Box as="header" mb={4}>
             <Date
               timestamp={mdx.frontmatter.timestamp}
               date={mdx.frontmatter.date}
@@ -52,7 +54,6 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
               {mdx.frontmatter.title}
             </H1>
           </Box>
-          <Newsletter />
 
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </Box>
@@ -84,6 +85,9 @@ export const pageQuery = graphql`
         title
         date(formatString: "Do MMMM, YYYY")
         timestamp: date
+        image {
+          url: publicURL
+        }
       }
       fields {
         slug

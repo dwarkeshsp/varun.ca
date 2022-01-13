@@ -17,10 +17,9 @@ const socialLinks = [
 ];
 
 export const Footer = (props) => (
-  <Box as="footer" pt={[3, 6]} mb={6} {...props}>
-    <Text>
-      Theme forked from{' '}
-      <SimpleLink to="https://varun.ca/"> varun.ca</SimpleLink>
+  <Box as="footer" pt={[3, 5]} mb={6} {...props}>
+    <Text fontSize={1} color="neutral.2">
+      Theme forked from <SimpleLink to="https://varun.ca/">varun.ca</SimpleLink>
     </Text>
   </Box>
 

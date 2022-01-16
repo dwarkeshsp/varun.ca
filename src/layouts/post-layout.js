@@ -29,7 +29,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
       <Box maxWidth={maxWidth} mx="auto" px={[3, 4, 3]}>
         <GlobalHeader />
         <Box as="article" my={4}>
-          <Newsletter />
+          {/* <Newsletter /> */}
 
           <Flex>
             <SimpleLink
@@ -50,7 +50,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
               timestamp={mdx.frontmatter.timestamp}
               date={mdx.frontmatter.date}
             />
-            <H1 mt={1} mb={4}>
+            <H1 mt={1} mb={5}>
               {mdx.frontmatter.title}
             </H1>
           </Box>
@@ -65,7 +65,7 @@ export default function PostLayout({ data: { mdx }, pageContext }) {
             Open an Issue
           </Link>
         </Text> */}
-        {/* <Newsletter /> */}
+        <Newsletter post={true} />
         {/* <RelatedPosts posts={pageContext.relatedPosts} /> */}
         <Comments />
 

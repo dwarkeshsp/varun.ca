@@ -12,21 +12,22 @@ export const GlobalHeader = () => (
         mr={2}
         color="neutral.1"
         letterSpacing="tracked"
-        fontSize={1}
+        fontSize={2}
         fontWeight={7}
         lineHeight="solid"
       >
         Dwarkesh Patel
       </SimpleLink>
-      <Text
-        color="neutral.3"
-        fontSize={1}
+      <SimpleLink
+        to="https://tinyletter.com/dwarkesh"
+        color="neutral.2"
+        fontSize={2}
         lineHeight="solid"
         mt={[1, 0]}
         mb={0}
       >
-        dwarkesh@dwarkeshpatel.com
-      </Text>
+        Subscribe{' '}
+      </SimpleLink>
     </Box>
     <Box flex={1} />
     <CycleMode />

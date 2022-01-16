@@ -52,7 +52,7 @@ const Home = ({ data }) => {
               the next few months learning about big ideas and emerging
               technologies.
             </Text>
-            {/* <Newsletter /> */}
+            <Newsletter />
           </Box>
           <ProfileLinks />
           <Flex flexWrap="wrap" justifyContent="space-between">

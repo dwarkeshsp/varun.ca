@@ -1,14 +1,14 @@
 import React from 'react';
 import { H3, Text, PrimaryButton, Box, Input, Flex, SrOnly } from '@ds';
 
-export const Newsletter = () => (
+export const Newsletter = ({ post }) => (
   <Box
-    mb={5}
-    maxWidth={7}
-    mx="auto"
+    mb={3}
+    maxWidth={post ? 7 : 6}
+    mx={post ? 'auto' : 0}
     as="form"
     bg="neutral.6"
-    p={4}
+    p={3}
     action="https://tinyletter.com/dwarkesh"
     method="post"
     target="popupwindow"
@@ -16,11 +16,10 @@ export const Newsletter = () => (
   >
     <input type="hidden" value="1" name="embed" />
 
-    {/* <Box mb={4}> */}
-    {/* <H3 fontSize={3} mb={2} mt={0}>
+    {/* <Box mb={4}>
+      <H3 fontSize={3} mb={2} mt={0}>
         Creative coding from a front-end developer's perspective
       </H3>
-
       <Text fontSize={2} mb={2}>
         My goal with this blog is to go beyond the basics. Breakdown my
         sketches. And make animation math approachable. The newsletter is more

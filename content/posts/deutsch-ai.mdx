@@ -1,11 +1,13 @@
 ---
-title: 'Draft: Contra David Deutsch on AI'
+title: 'Contra David Deutsch on AI'
 image: ../assets/deutsch-meme.jpg
 date: 2022-01-10
 draft: false
 ---
 
 import Youtube from '@components/youtube';
+
+*I'm interviewing David Deutsch on my podcast in a few days. Email me at dwarkesh@dwarkeshpatel.com if you have any suggestions for questions that I should ask him.*
 
 ![deutsch meme](../assets/deutsch-meme.jpg)
 
@@ -23,7 +25,7 @@ Deutsch argues that this is because humans are universal explainers. We have cre
 
 I will refer to the theory that creativity is a binary variable, that humans and AGIs are universal explainers capable of feasibly understanding or building whatever the other can, and that animals and current AIs are behaviorist automaton lacking any creativity and intelligence, as the *universal explainers hypothesis*.
 
-**The universal explainers hypothesis is incorrect because it cannot explain why some animals are smart and some humans are stupid. Furthermore, it is meaningless when we consider the disparities between different computers and irrelevant to the extent that it is compatible with powerful AIs with narrow objective functions.**
+**The universal explainers hypothesis is incorrect because it cannot explain why some animals are smart and some humans are stupid. Furthermore, it is meaningless when you consider the disparities between different computers and irrelevant to the extent that it is compatible with powerful AIs with narrow objective functions.**
 
 ## Some animals are smart
 
@@ -35,17 +37,15 @@ Deutsch answers this question by insisting that animals have no creativity or in
 >
 > David Deutsch, *The Beginning of Infinity*
 
-Deutsch dismisses any examples of animal creativity and problem solving as unthinking imitation or genetic knowledge (which accumulates slower and has a miniscule reach in comparison to explanatory knowledge):
+Deutsch dismisses any examples of animal cogntion as unthinking imitation or genetic knowledge (which accumulates slower and has a miniscule reach in comparison to explanatory knowledge):
 
-> The movements required to crack the nut are never the same twice: the ape has to aim the rock at the nut; it may have to chase the nut and fetch it back if it rolls away; it has to keep hitting it until it cracks, rather than a fixed number of times; and so on. During some parts of the procedure the ape’s two hands must cooperate, each performing a different sub-task. Before it can even begin, it must be able to recognize a nut as being suitable for the procedure; it must look for a rock and, again, recognize a suitable one.
->
-> **Such activities may seem to depend on explanation – on understanding how and why each action within the complex behaviour has to fit in with the other actions in order to achieve the overall purpose. But recent discoveries have revealed how apes are able to imitate such behaviours without ever creating any explanatory knowledge.** In a remarkable series of observational and theoretical studies, the evolutionary psychologist and animal-behaviour researcher Richard Byrne has shown how they achieve this by a process that he calls _behaviour parsing_ ...
+> **[Multi-step animal] activities may seem to depend on explanation – on understanding how and why each action within the complex behaviour has to fit in with the other actions in order to achieve the overall purpose. But recent discoveries have revealed how apes are able to imitate such behaviours without ever creating any explanatory knowledge.** In a remarkable series of observational and theoretical studies, the evolutionary psychologist and animal-behaviour researcher Richard Byrne has shown how they achieve this by a process that he calls _behaviour parsing_ ...
 >
 > [I]n behaviour parsing (which evolved millions of years before human language parsing), an ape parses a continuous stream of behaviour that it witnesses into individual elements, each of which it already knows – genetically – how to imitate. The individual elements can be inborn behaviours, such as biting; or behaviours learned by trial and error, such as grasping a nettle without being stung; or previously learned memes. As for connecting these elements together in the right way without knowing why, it turns out that, in every known case of complex behaviours in non-humans, the necessary information can be obtained merely by watching the behaviour many times and looking out for simple statistical patterns – such as which right-hand behaviour often goes with which left-hand behaviour, and which elements are often omitted. It is a very inefficient method, requiring a lot of watching of behaviours that a human could mimic almost immediately by understanding their purpose.
 >
 > David Deutsch, *The Beginning of Infinity*
 
-Deutsch is trying to explain complex animal behaviors by using Richard Byrne’s theory of imitation as behavior parsing. This theory states that animals do not need to understand cause and effect relationships or have intentionality in order to fulfill multi-step procedures for gathering and procession food, building shelter, hunting, etc:
+Deutsch is trying to explain complex animal activities by using Richard Byrne’s theory of imitation as behavior parsing. This theory states that animals do not need to understand cause and effect relationships or have intentionality in order to fulfill multi-step procedures for gathering and procession food, building shelter, hunting, etc:
 
 > Consider how this might work for an infant gorilla learning about nettle processing ... By the time a young gorilla first begins to process a nettle plant, at the late age of about 2 years because the stinging hairs discourage earlier attempts, they will therefore have watched many hundreds of plants being processed expertly by the mother. Suppose her behaviour is seen by the infant as a string of elements, each of which is already familiar (i.e. a mirror neuron exists for the element). At this time, the young gorilla’s repertoire of familiar elements of action derives from its innate manual capacities, many hours of playing with plants and discarded debris of the mother’s feeding, and from its own feeding on other, perhaps simpler plants. The string of elements that it sees when watching its mother eat nettles will differ each time, although her starting point is always a growing, intact nettle stem, and—because she is expert at this task—the final stage is always the same: popping a neatly folded package of nettle leaves into the mouth ... Statistical regularities thereby separate the minimal set of essential actions from the many others that occur during nettle eating but which are not crucial to success, and reveal the correct order in which they must be arranged.
 >
@@ -55,23 +55,23 @@ Here is why I disagree that this theory can explain away evidence of animal crea
 
 1. Just because a task involves imitation and statistical pattern recognition does not make it trivial or independent of creative problem solving. Children learn languages in part by imitating the words their parents speak and by noticing statistical regularities between different kinds of words. This does not make the task of learning a language any less impressive.
 
-   Stating that a task involves statistical pattern recognition does not explain how a chimp extracts patterns of ordered subtasks just from observing instances of the whole task. How does the chimp even recognize that the actions he is observing right now is an instance of a task he is supposed to learn to imitate? How does he learn which details of this iteration to dismiss because they do not fit the pattern, or because they were particular to some irrelevant problem his mother faced this morning. Overfitting to training data is the biggest challenge to imitation learning and to deep learning generally. If you can explain how chimps seem to have bypassed this hurdle, then your solution will be worth many billions of dollars to the automotive industry, which has been looking for just the thing in order to build self-driving cars:
+   Stating that a task involves statistical pattern recognition does not explain how a chimp extracts patterns of ordered subtasks just from observing instances of the whole task. How does the chimp even recognize that the actions he is observing right now is an instance of a task he is supposed to learn to imitate? How does he learn which details of this iteration to dismiss because they do not fit the pattern, or because they were particular to some irrelevant problem his mother faced this morning. Overfitting to training data is the biggest challenge to imitation learning and to deep learning generally. If you can explain how chimps seem to have bypassed this hurdle, then your solution will be worth many billions of dollars to the automotive industry, which has been looking for just the thing in order to build self-driving cars.
 
    > [E]rrors cascade in imitation learning but are independent in supervised learning. Consider, for instance, a discrete version of the problem that only predicts “steer left” or “steer right”. Inevitably, our learning algorithm will make some error – let’s say with small probability e for a good learner – and steer differently than a human driver would. At that point, the car will no longer be driving down the center of the road and the resulting images will look qualitatively different then the bulk of those used for training. Imitation learning has difficulty with this situation. The learner has never encountered these images before. Since learners can only attempt to do well in expectation over a distribution of familiar examples, an unusual image may incur further error, often with a higher probability.
    >
    > J. Andrew Bagnell, [An Invitation to Imitation](https://www.ri.cmu.edu/pub_files/2015/3/InvitationToImitation_3_1415.pdf)
 
-2. Even if this theory can explain how animals can combine different elementary subtasks in order to perform complex behaviors, it still doesn’t explain how animals can execute these basic subtasks without creativity. Take the example of a gorilla stripping nettle plant leaves from their stem. Even this basic action requires cycles of conjecture and refutation which Deutsch believes exemplify creativity [fix]. She conjectures that pulling at a certain angle will separate the leaves from the stem without damaging them, but she is refuted when the leaves on the left side of the stem start to crumple. She conjectures that pulling with a certain force will maximize her speed without injuring the plant, but she is refuted when she feels the stem on the verge of snapping. There are a dozen such microcycles of error-correction.
+2. Even if this theory can explain how animals can combine different elementary subtasks in order to perform complex behaviors, it still doesn’t explain how animals can execute these basic subtasks without creativity. Take the example of a gorilla stripping nettle plant leaves from their stem. Even this basic action requires cycles of conjecture and refutation (what Deutsch calls creativity). She conjectures that pulling at a certain angle will separate the leaves from the stem without damaging them, but she is refuted when the leaves on the left side of the stem start to crumple. She conjectures that pulling with a certain force will maximize her speed without injuring the plant, but she is refuted when she feels the stem on the verge of snapping. There are a dozen such microcycles of error-correction within each "simple" step.
 
-   If you think responding to sensitive information from the environment in order to update your movements can be solved with a trivial algorithm requiring no intelligence, I suggest you write up this program and make a seminal contribution to the field of robotics, which has still not been able to solve this problem completely despite spending decades and billions of dollars of R & D on it [TODO, find better explanations of why this is hard].
+   If you think responding to sensitive information from the environment in order to update your movements can be solved with a trivial algorithm requiring no intelligence, I suggest you write up this program and make a seminal contribution to the field of robotics, which has still not been able to solve this problem completely despite spending billions of dollars on it.
 
-   Again, if you think I’m making this sound more complicated than it really is, or if you think you understand how animals can do all this, then I suggest you sell your program for behavior parsing to Amazon and retire a billionaire. They will be more than happy to automate away the moving of packages. Have your program observe the rote programmatic way in which Amazon warehouse workers are asked by a computer to go over there, pick up that package, and put it over there. This is far less complicated than the plucking, cleaning, stripping, and folding of Nettle leaves.
+   Again, if it seems like I’m making this sound more complicated than it really is, or if you think you understand how animals can do all this, then I suggest you sell your program for behavior parsing to Amazon and retire a billionaire. Have your program observe the rote programmatic way in which Amazon warehouse workers are asked by a computer to go over there, pick up that package, and put it over there. This is far less complicated than the plucking, cleaning, stripping, and folding of Nettle leaves, but we still haven't figured out how to automate it.
 
 3. Imitation as behavior parsing does not explain the examples of animals solving problems by engaging in multiple step behaviors whose execution they have never seen before:
 
 <Youtube src="cbSu2PXOTOc" />
 
-The dismissal of animal cognition as behavior parsing reminds me a scene from a Sherlock Holmes story. A client comes in and sits down. Sherlock then starts to tell Watson details about the client just from looking at him - that he lived in China, that he is a Freemason, that he writes a lot, and so on. The client is astonished and asks how Holmes knows all this about him. So Sherlock explains the series of clever deductions he made. The client responds:
+The dismissal of animal cognition as behavior parsing reminds me a scene from a Sherlock Holmes story. A client comes in and sits down. Sherlock then starts to tell Watson details about the client just from looking at him - that he lived in China, that he is a Freemason, that he writes a lot, and so on. The client is astonished and asks Holmes how he knows all this about him. So Sherlock explains the series of clever deductions he made. The client responds:
 
 > "I thought at first that you had done something clever, but I see that there was nothing in it, after all."
 
@@ -79,7 +79,7 @@ As Gwern explains:
 
 > if we ever succeed in AI [or in understanding animal cognition] ... it _must be by reducing Y to ‘just X’_. Showing that some task requiring intelligence can be solved by a well-defined algorithm with no ‘intelligence’ is precisely what success must look like! (Otherwise, the question has been thoroughly begged & the problem has only been pushed elsewhere; computer chips are made of transistors, not especially little homunculi.)
 >
-> Gwern, [The Scaling Hypothesis](https://www.gwern.net/Scaling-hypothesis)
+> Gwern, [*The Scaling Hypothesis*](https://www.gwern.net/Scaling-hypothesis)
 
 ## Some humans are stupid
 
@@ -103,13 +103,13 @@ Sam Harris asked Deutsch a similar question on his [podcast](https://www.samharr
 
 Deutsch's response here seems like a non-sequitur. Just because culture can limit what ideas a person can have doesn't mean that culture is the only thing which can place such limits or that culture can explain all of the cognitive disparities between people.
 
-If culture is the basis for all differences in intelligence between people, Deutsch must explain why twins separated at birth and adopted by different families (with different cultures) end up having highly correlated levels of intelligence, or why identical twins have a higher correlation of IQ than fraternal twins do[^7]. Such studies shown that intelligence is between 50 to 80% heritable, meaning most of variance in intelligence between people is explained by genes.
+If culture is the basis for all differences in intelligence between people, Deutsch must explain why twins separated at birth and adopted by different families (with different cultures) end up having highly correlated levels of intelligence, or why identical twins have a higher correlation of IQ than fraternal twins [^7]. Such studies shown that intelligence is between 50 to 80% heritable, meaning most of variance in intelligence between people is explained by genes.
 
 [^7]: Stuart Ritchie, _Intelligence_: "the IQ correlation ... between identical twins is around 0.80 (about the same as the correlation between two sittings of the test by the same person) and that between fraternal twins is lower, at around 0.55 ... this tells us that 50 per cent of the differences in intelligence are due to genetic differences. In behavioural genetic terminology, intelligence is 50 per cent ‘heritable’"
 
 Deutsch would probably criticize the implication we are deriving from these kinds of studies. Just because present day differences in intelligence are partly explained by genes does not mean that such differences are intractable with the future growth of knowledge. Since stupid people are also universal explainers, the only meaningful difference between them and smart people is the speed and memory of the computer they are running on. Eventually, we will be able to upload the minds of stupid people onto hardware which doesn't have the speed and memory constraints their brain has. **This is a bit like saying that it's inaccurate to suggest that a car has a higher range or speed than a bicycle. With future technology, we could replace the bicycle rider's ATP stores with an atomic battery, and his muscles with miniature jet engines. In fact, bicycles and cars are both "universal vehicles" which share the same fundamental capacity for transportation. The only differences which can exist between them are the size of their energy supply and the power of their engines. Since you can always extend these two attributes, one vehicle cannot be more powerful than another.**
 
-Um, okay. But for now, a car can feasibly get me from Austin to Dallas, and a bicycle cannot. David Deutsch can invent the theory of quantum computing, the village idiot cannot. And just as a plane can get me from Dallas to London but a car cannot, an AGI might be able to provide certain improvements to the theory of quantum computing which David Deutsch cannot.
+Okay, I guess. But for now, a car can feasibly get me from Austin to Dallas, and a bicycle cannot. David Deutsch can invent the theory of quantum computing, the village idiot cannot. And just as a plane can get me from Dallas to London but a car cannot, an AGI might be able to provide certain improvements to the theory of quantum computing which David Deutsch cannot.
 
 *I explain why Deutsch's criticism of behavioral studies is invalid with regards to IQ in the Appendix.*
 
@@ -133,17 +133,17 @@ I like Gwern's response to this line of argumentation:
 
 > [people sometimes reason](http://www.scottaaronson.com/blog/?p=346) that since a human and AI would be in the same computability class (Turing-completeness), that anything an AI could do or think, a human must also be able to do or think, but they neglect that humans do not have unbounded time or space like the idealized Turing machine and there is no more reason to expect understanding to be possible than to expect an ant to understand everything a human does before it dies of old age; an ant with galaxies of notebooks and billions of years could perhaps understand human civilization, but no such ant has ever existed or ever will
 >
-> Gwern, [Complexity No Bar To AI](https://www.gwern.net/Complexity-vs-AI)
+> Gwern, [*Complexity No Bar To AI*](https://www.gwern.net/Complexity-vs-AI)
 
-Deutsch might respond that ants are not running the universal explainer software, and without it, there is nothing for extra memory and speed to scale. Since humans already have this software, all that''s required for us to catch up to future AIs are tools or augmentation which give us more compute than the brain can natively provide.
+Deutsch might respond that ants are not running the universal explainer software, and without it, there is nothing for extra memory and speed to scale. Since humans already have this software, all that''s required for us to catch up to future AIs are either external tools or brain augmentations which give us more compute than the brain can natively provide.
 
 I have explained why I think the idea of universal explainers is wrong in the sections above, so I am not convinced that the repertoire of human thought is wide enough to accommodate all the knowledge of neuromodulation necessary to catch up hardware-wise with AIs.
 
-The minds of smart animals and stupid humans seem to exist in a strict but nonempty subset of the intelligence of the smartest humans. Since the principles of neuroimaging and mind-upload are impossible to grasp for all animals and at least some humans, part of what is excluded from that set is the knowledge of how to expand that set. If it possible for beings to exist in subsets of intelligence that do not contain the tools by which to expand out into their immediate superset, then maybe even smart humans live in such a subset, and the cognitive repertoire of superhuman AIs evades them [fix sentence].
+The intelligence of smart animals and stupid humans seem to exist in a strict but nonempty subset of the intelligence of the smartest humans. Since the principles of neuroimaging and mind-upload are impossible to grasp for all animals and at least some humans, part of what is excluded from that set is the knowledge of how to expand that set. If it possible for beings to exist in subsets of intelligence that do not contain the tools by which to expand out into their immediate superset, then maybe even smart humans live in such a subset, and the cognitive repertoire of superhuman AIs evades them.
 
 Even if we manage to upload our minds onto faster hardware, I don't know why we would expect the software of human cognition to be compatible with arbitrary expansions of speed and memory while still remaining human. Presumably, there is some sequence of changes you can make to the uploaded version of a dog's mind in order to make it a general intelligence (there must be as long as there is such a thing the code of a dog and the code of a general intelligence). But at this point, this code is no longer of a dog's mind.
 
-And even if we could upload our minds onto the supercomputers used by AIs, and even if that uploaded and extended copy remained recognizably human, why should we expect to master the technology of mapping billions of neurons and perfectly simulating their interactions before we develop an AGI? The time between when we create AGIs and when we can upload our minds will be one where we are cognitively inferior to AIs due to the immense hardware advantages they enjoy, even if theoretically we are equally capable as far as software is concerned. In that time, we will have functionally superhuman AIs, and many of the concerns which AI alarmists riase attention to would be valid.
+And even if we could upload our minds onto the supercomputers used by AIs, and even if that uploaded and extended copy remained recognizably human, why should we expect to master the technology of mapping billions of neurons and perfectly simulating their interactions before we develop an AGI? The time between when we create AGIs and when we can upload our minds will be one where we are cognitively inferior to AIs due to the immense hardware advantages they enjoy, even if theoretically we are equally capable as far as software is concerned. In that time, we will have functionally superhuman AIs, and many of the concerns which AI alarmists raise would be valid.
 
 ## Powerful AIs with narrow objective functions seem possible
 
@@ -157,11 +157,11 @@ Suppose I'm able to write a deep learning model that makes me a trillion dollars
 
 Okay, whatever. I still have a trillion dollars.
 
-Would Deutsch argue that no "behaviorist, input-output model"[^2] could do something like finding free energy in the stock market[^3]? Remember, it doesn't have to output a new theory of physics or anything. It simply has to output a prediction of which stocks are likely to beat the market based on current market information and brute force training from past financial history. If such a program is impossible, then why can this family of models [predict a protein's structure](https://rootsofprogress.org/alphafold-protein-folding-explainer) much more accurately and efficiently than any direct simulation can, [become the best player at a game with 10 ^ 360 possible moves](https://deepmind.com/research/case-studies/alphago-the-story-so-far) entirely through self play, and [generate novel and coherent passages of fiction](https://www.gwern.net/GPT-3)? What precisely would the stock market bot have to do which these other programs aren't already doing at a different scale and domain. To suggest an arbitrary limitation on deep learning in the stock market without some explanation for its existence would mean making exactly the same mistake of proposing arbitrary blocks which Deutsch criticizes believers in the idea of superhuman intelligence of making.
+Would Deutsch argue that no "behaviorist, input-output model"[^2] could do something like finding free energy in the stock market[^3]? Remember, it doesn't have to output a new theory of physics or anything. It simply has to output a prediction of which stocks are likely to beat the market based on current market information and brute force training from past financial history. If such a program is impossible, then why can this family of models [predict a protein's structure](https://rootsofprogress.org/alphafold-protein-folding-explainer) much more accurately and efficiently than any direct simulation can, [become the best player at a game with 10 ^ 360 possible moves](https://deepmind.com/research/case-studies/alphago-the-story-so-far) entirely through self play, and [generate novel and coherent passages of fiction](https://www.gwern.net/GPT-3)? What precisely would the stock market bot have to do which these other programs aren't already doing at a different scale and domain. To suggest arbitrary limitations on deep learning without some good explanation for their existence would mean making exactly the same mistake which Deutsch criticizes believers in the idea of a bounded human repertoire of making.
 
 Or would he argue that extending current AI techniques to make a trillion dollars in the stock market still hasn't gotten you closer to the goal of making an AGI which can design its own objective function? In which case, who cares? I don't want my get-rich-quick bot to decide to write symphonies or become a moral philosopher instead. I want it to make me lots of money.
 
-The general point I'm making is that you can build programs which are not true AIs, but which are still extremely powerful. You can say that they have no creativity, but **if extremely important and previously impossible work can be done by "uncreative" programs, then this diminishes the value of your concept of creativity rather than the value of the programs themselves.**
+The general point I'm making is that you can build programs which are not true AGIs, but which are still extremely powerful. You can say that they have no creativity, but **if extremely important and previously impossible work can be done by "uncreative" programs, then this diminishes the value of your concept of creativity rather than the value of the programs themselves.**
 
 By the way, isn't the entire point of AI safety research that you can have programs which are extremely competent at achieving some narrow goal (making lots of money in the stock market) but lack the capacity to evaluate and weigh the costs of achieving these goals (destroying the financial system)? So if Deutsch agrees that such programs are possible, then would he agree with the need for AI safety research and the danger of possible paperclip maximizers?
 
@@ -177,7 +177,7 @@ So, if I think that Deutsch's theory of universal explainers is wrong, what is t
 >
 > Gwern, [*The Scaling Hypothesis*](https://www.gwern.net/Scaling-hypothesis)
 
-Admittedly, this is not a full explanation. Saying that intelligence is a matter of training a very large neural net with lots of diverse experiences is like nuclear fusion is a matter of the interactions between fermions and bosons - it may be true but it is not much of an explanation. But David Deutsch doesn't have an explanation for why the universal explainers hypothesis is correct either. Such an explanation is impossible until we actually understand what general intelligence is and how it can be constructed.
+Admittedly, this is not a full explanation. Saying that intelligence is a matter of training a very large neural net with lots of diverse experiences is like saying that nuclear fusion is a matter of the interactions between fermions and bosons - it may be true but it is not much of an explanation. However, David Deutsch doesn't have an explanation for why the universal explainers hypothesis is correct either. Such an explanation is impossible until we actually understand what general intelligence is and how it can be constructed.
 
 For the time being, the scaling hypothesis is a better conjecture since it can explain observations which the universal explainers hypothesis cannot:
 
@@ -186,9 +186,9 @@ For the time being, the scaling hypothesis is a better conjecture since it can e
 - Some humans are stupider than others.
   - If all humans are universal explainers, then why can't all humans understand the explanations made by the smartest humans?
 - Deep learning models have scaled remarkably well over the last ten years, and they can perform many difficult general tasks without supervised learning.
-  - If only universal explainers can address problems which require novel solutions within a large search space, then why have non-universal programs been able to solve problems like protein folding, writing poetry, creating art, beating the best Go players, discovering new drugs, (100 other really impressive examples) just by increasing the compute and training data we provide to general-purpose neural nets? And if you don't need to be a universal explainer to in order to solve these problems, then why should we care about universal explainers?
+  - If only universal explainers can address problems which require novel solutions within a large search space, then why have non-universal programs been able to solve problems like protein folding, writing poetry, creating art, beating the best Go players, discovering new drugs, (100 other really impressive examples)? And if you don't need to be a universal explainer to in order to solve these problems, then why should we care about universal explainers?
 
-Meanwhile, the scaling hypothesis can address he problems which the universal explainers hypothesis was created to solve:
+Meanwhile, the scaling hypothesis can address the problems which the universal explainers hypothesis was created to solve:
 
 - There was a large bump in cognitive capacities between other animals and humans.
 
@@ -196,7 +196,7 @@ Meanwhile, the scaling hypothesis can address he problems which the universal ex
 
     ![scurve](../assets/ai-scurve.png)
 
-Given that we don't have a full theory of intelligence, I would not be surprised if the universal explainers hypothesis is correct, and that the maximum possible intelligence is close to human-level. But the scaling hypothesis is tentatively a better model because it resolves many problems which the universal explainers hypothesis faces. At the very least, we can't rule out the scaling hypothesis, and we ought to prepare for the possibility of a fundamentally superhuman artificial intelligence [TODO better conclusion]. 
+Given that we don't have a full theory of intelligence, I would not be surprised if the universal explainers hypothesis is correct and the maximum possible intelligence is close to human-level. But the scaling hypothesis is tentatively a better model. The universal explainers hypothesis seems like an attempt at transferring the logic of Turing completeness to the question of intelligence without any good explanation for why that logic is applicable for intelligence. It makes implications about animal and human intelligence which can be easily falsified. 
 
 
 
@@ -221,7 +221,7 @@ His objections are not valid with regards to the heritability of intelligence:
 - How do even know that measured intelligence is telling us something real and generalizable which corresponds to abstract thinking, problem solving ability, and capacity to acquire knowledge? 
 
   - As Deutsch asks in the analogous happiness example, "how can we measure whether different people’s ratings of their own psychological state are commensurable?"
-  - IQ scores are heavily correlated with job performance, school performance, income, (lack of) crime, and even health. IQ is clearly measuring some underlying trait that determines your effectiveness across a broad range of cognitively demanding tasks (even years down the line). You can call this trait whatever you want, but I call it intelligence.
+  - IQ scores are heavily correlated with job performance, school performance, income, (lack of) crime, and even health. IQ is clearly measuring some underlying trait that determines your effectiveness across a broad range of cognitively demanding tasks (in many cases, even years down the line). You can call this trait whatever you want, but I call it intelligence.
 
 - Do we actually have any explanations for why differences in the brain could cause disparities in intelligence, and why such differences would be heritable? 
 
@@ -233,29 +233,32 @@ His objections are not valid with regards to the heritability of intelligence:
     - "Many studies have now shown that this measure of the efficiency of white matter connections is correlated with performance on IQ tests, especially those that involve reasoning and speed. Better connections tend to mean faster and more efficient cognitive abilities (Penke et al., 2012)."
     - "Another important finding from functional imaging relates to brain efficiency. Compared to those with lower ability, the brains of higher-IQ people tend to show _less_, rather than more, activity when completing complicated tasks: this suggests that their brains can more efficiently work through the problems."
 
-    Of course, we should expect such traits to be at least partially heritable. If you want to claim that they are not heritable at all, then the onus is on you to explain why all aspects of biological life except for the topography, size, and organization of human brains are partially heritable. [fix]
+    Of course, we should expect such traits to be genetically influenced. If you want to claim that they are not heritable at all, then the onus is on you to explain why all aspects of biological life are at least partially heritable except for the topography, size, and organization of human brains.
 
     While we can't account for the entire genetic contribution to IQ through known causal mechanisms, we have identified enough to know that genes can cause disparities in intelligence.
 
-- How do we know that the apparent heritability of intelligence isn't instead caused by some X trait which is itself heritable and causes disparities in intelligence by influencing how society treats people with that trait or how people with that trait develop and express their cognitive potential? 
+- How do we know that the apparent heritability of intelligence isn't caused by some X trait which is itself heritable and causes disparities in intelligence by influencing how society treats people with that trait or how people with that trait develop and express their cognitive potential? 
 
   - Deutsch gives the following alternative explanations with regards to happiness, "if we were to find that people with a particular gene tend to rate themselves happier than people without it, how can we tell whether the gene is coding for happiness? Perhaps it is coding for less reluctance to _quantify_ one’s happiness. Perhaps the gene in question does not affect the brain at all, but only how a person looks, and perhaps better-looking people are happier on average because they are treated better by others. There is an infinity of possible explanations."
 
-  - As Deutsch has explained, in science you can never prove an explanation. You just have to find a theory which is hard-to-vary and best explains the evidence. There is no plausible alternative explanation which accounts for why adopted twins raised in different households in different social classes and cultures are still much more likely to have similar IQ scores than two random members of the general population. If he has an alternative explanation to the mountains of research which show that g is real, heritable, and predictive of intelligence relevant outcomes, then he is free to provide it.
+  - As Deutsch has explained, in science you can never prove an explanation. You just have to find a theory which is hard-to-vary and best explains the evidence. There is no plausible alternative explanation which accounts for why adopted twins raised in different households in different social classes and cultures are still much more likely to have similar IQ scores than two random members of the general population. If he has an alternative explanation to the mountains of research which show that g is real, heritable, and predictive of intelligence relevant life outcomes, then should provide it.
 
-    With regards to a possible confounding trait to intelligence analogous to good looks to happiness, Deutsch has to explain, what is this X trait could ne which is:
+    With regards to a possible confounding X trait that is to intelligence what good looks is to happiness, Deutsch has to explain what this trait is and how it could be:
 
     1. So closely correlated with general cognitive ability without being intelligence itself,
     2. Obvious enough to adoptive parents, teachers, and other members of society that they can use it as a basis for discrimination,
     3. Yet at the same time so concealed that researchers have not even been able to identify it.
 
-    He has to explain why we can't detect this X trait discrimination despite it being so pervasive and intense that it is leading to large cognitive disparities between people who experience it and people who don't. He also has to explain how this type of discrimination could actually cause such cogntive disparities, even if it existed.
+    He has to explain why we can't detect this X trait discrimination despite it being so pervasive and intense that it is leading to large cognitive disparities between people who experience it and people who don't. He also has to explain how this type of discrimination could actually cause large cognitive disparities, even if it existed. And finally, he has to explain why this X trait story is a better explanation than the theory that intelligence varies between people and is heritable.
 
-- How do we know that so-called "genetic" differences in intelligence cannot be solved by the future growth of knowledge? Deutsch writes with regards to happiness example, "[This study] cannot detect whether a book will be written one day which will persuade some proportion of the population that all evils are due to lack of knowledge, and that knowledge is created by seeking good explanations. If some of those people consequently create more knowledge than they otherwise would have, and become happier than they otherwise would have been, then part of the 50 per cent of happiness that was ‘genetically determined’ in all previous studies will no longer be so."
+- How do we know that so-called "genetic" differences in intelligence cannot be solved by the future growth of knowledge? 
 
-  - It is certainly possible that some kind of intervention exists which can bring people with low cogntive ability up to the level of David Deutsch. But there is no guarantee that such an intervention exists.
+  - Deutsch writes with regards to happiness example, "[This study] cannot detect whether a book will be written one day which will persuade some proportion of the population that all evils are due to lack of knowledge, and that knowledge is created by seeking good explanations. If some of those people consequently create more knowledge than they otherwise would have, and become happier than they otherwise would have been, then part of the 50 per cent of happiness that was ‘genetically determined’ in all previous studies will no longer be so."
 
-    To bring us back to the topic of AI, **imagine that humanity is like the people at the bottom of the IQ distribution in comparison to future AIs. What are the odds that these cognitively disadvantaged people (who often lack the capacity to fill out forms or understand basic written instructions)[^4] could by themselves discover a method of increasing their intelligence to David Deutsch's level which decades of social and medical science research have failed to uncover [fix sentence]? If this seems like a remote possibility, then you understand why I am skeptical that humans will be able to augment our computational hardware enough to keep up with future AIs.**
+  - It is certainly possible that some kind of intervention exists which can bring people with low cognitive ability up to the level of David Deutsch. But we have not found it yet and there is no guarantee that it exists.
+  
+    To bring us back to the topic of AI, **imagine that humanity is like the people at the bottom of the IQ distribution in comparison to future AIs. What are the odds that these cognitively disadvantaged people (who often lack the capacity to fill out forms or understand basic written instructions)[^4] could by themselves discover a method of increasing their intelligence to David Deutsch's level which decades of social and medical science have failed to uncover? If this seems like a remote possibility, then you understand why I am skeptical that humans will be able to augment our computational hardware enough to keep up with future AIs.**
+  
 
 [^4]: Gottfredson, _Suppressing Intelligence Research: Hurting Those We Intend to Help_, h/t [Gwern](https://www.gwern.net/iq)
 

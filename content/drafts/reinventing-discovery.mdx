@@ -16,7 +16,7 @@ Nielson thinks that the internet allows us to create tools for scientific collab
 
 He desci
 
-Nielson thinks that we are stuck in an [inadequate equilibrium](https://equilibriabook.com/) where scientists are not incentivized to make the unsexy contributions which would help the scientific community as a whole. For example, when Caltech PhD student John Stockton decided to create a wiki for new results, open problems, and best practices in quantum computing, many scientists thought this was a promising idea. They believed it would help researchers stay up to date with adjacent areas and get students caught up with the frontiers of knowledge. However, almost none of them were actually willing to contribute to the wiki - named qwiki, short for quantum wiki:
+Nielson thinks that we are stuck in an [inadequate equilibrium](https://equilibriabook.com/) where scientists are not incentivized to make the unsexy contributions which would increase the productivity of the scientific community as a whole. For example, when Caltech PhD student John Stockton decided to create a wiki for new results, open problems, and best practices in quantum computing, many scientists thought this was a promising idea. They believed it would help researchers stay up to date with adjacent areas and get students caught up with the frontiers of knowledge. However, almost none of them were actually willing to contribute to this qwiki, short for quantum wiki:
 
 > I heard some people express optimism that the qwiki might do for the specialist knowledge of quantum computing what Wikipedia and Google have done for general knowledge. Unfortunately, that optimism didn’t translate into a willingness by those people to contribute. Instead, they hoped someone else would take the lead. **After all, why contribute to the qwiki when you could be doing something more useful to your own career, like writing a paper or a grant? Why share your latest and best ideas on the qwiki, when that would only help your competitors?** And why contribute to the qwiki when it was still in its beginning stages, and it wasn’t yet clear whether it would flourish?
 
@@ -46,9 +46,9 @@ You might worry that it would be infeasible to build a prediction market for che
 
 -
 
-It seems to me that networked science can significantly speed up research efforts which are analogous to NP-hard problems in computational complexity. [^5]These are problems for which it is hard to find a solution, but once a solution has been found, it is easy to confirm whether or not it is correct. Consider the Polymath Project which Neilson discusses at length in the book:
+It seems to me that networked science can significantly speed up research efforts which are analogous to NP problems in computational complexity.[^5]These are problems for which it might be hard to find a solution, but once a solution has been found, it is easy to confirm whether or not it is correct. Consider the Polymath Project which Neilson discusses at length in the book:
 
-[^5]: I am using NP-hardness metaphorically. I am not claiming that these research problems are literally NP-hard.  
+[^5]: I am using NP metaphorically. I am not claiming that these research problems are literally NP-hard.  
 
 > In January 2009, [mathematician Tim] Gowers decided to use his blog to run a very unusual social experiment. He picked out an important and difficult unsolved mathematical problem, a problem he said he’d “love to solve.” But instead of attacking the problem on his own, or with a few close colleagues, he decided to attack the problem completely in the open, using his blog to post ideas and partial progress. What’s more, he issued an open invitation asking other people to help out. Anyone could follow along and, if they had an idea, explain it in the comments section of the blog. Gowers hoped that many minds would be more powerful than one, that they would stimulate each other with different expertise and perspectives, and collectively make easy work of his hard mathematical problem. He dubbed the experiment the Polymath Project.
 >
@@ -58,7 +58,7 @@ Mathematical proofs of this sort are the perfect example of the hard-to-solve bu
 
 You might be wondering if a process like the Polymath Project can be scaled. Reading the [actual](https://gowers.wordpress.com/2009/02/01/a-combinatorial-approach-to-density-hales-jewett/) [comment](https://gowers.wordpress.com/2009/02/06/dhj-the-triangle-removal-approach/) [sections](https://terrytao.wordpress.com/2009/02/05/upper-and-lower-bounds-for-the-density-hales-jewett-problem/) where they hashed out the solution, I'm a bit skeptical. Don't get me wrong, it's incredibly inspiring to see some of the top mathematicians in the world debating math proofs at 2 AM as if they're on supergenius edition of Reddit. But Nielson makes it sound as if there are dozens of people around the world from all walks of life actively contributing to this thread, whereas the overwhelming majority of comments only came from eight or so people, two of whom have a Fields medal.  Functionally, this project wasn't that much different from an email chain between the coauthors of a paper.
 
-And that is probably for the best. As Nadia Eghbal explains in her new book, *Working In Public*, open source software shows that by encouraging contributions from community members (or "citizen scientists" in Nielson's terminology) often increases, not decreases, the burdens for maintainers. Just like in the case of the Polymath Project, the quantity and value of contributions to open source repositories follows a power law, where a small minority does most of the work and the rest strains this group with overwhelming amounts of feature requests and useless code.
+And that is probably for the best. As Nadia Eghbal explains in her new book, *Working In Public*, the history of open source software shows that encouraging contributions from community members (or "citizen scientists" in Nielson's terminology) often increases, not decreases, the burdens for maintainers. Just like in the case of the Polymath Project, the quantity and value of contributions to open source repositories follows a power law, where a small minority does most of the work and the rest strains this group with overwhelming amounts of feature requests and useless code.
 
 > There are countless initiatives today aimed at helping more developers contribute to open source projects. These efforts are widely championed as “good for open source,” and they are frequently accomplished by tapping into a public sense of goodwill.
 >
@@ -66,10 +66,17 @@ And that is probably for the best. As Nadia Eghbal explains in her new book, *Wo
 >
 > Nadia Eghbal, *Working In Public*
 
-Nielson discusses many cases in the book of projects which employ thousands of volunteers as citizen scientists to complete projects 
+Nielson discusses many examples of research projects which employ thousands of volunteer citizen scientists - like Foldit - a game where players try to predict the structure of proteins - and Galaxy Zoo - a website which asks contributors to classify images of galaxies by their shape. These are indeed examples of science being scaled up to productively accomodate lots of amatuers, but one can't help but notice that solving a difficult math problem in collaboration with fields medalists is a much more difficult job than chossing whether the current picture resembles a spiral or ellipitcal galaxy[^2]. This does not make the task of classifying galaxies of predicting protein structures trivial. Dennis Hackethal - the cofounder of Deepmind which developed a much better protein folding algorithm based on deep learning - said that he noticed how the best Foldit players had developed a hard to codify intuition about how different substructures in a full protein ought to be organized [add link]. I just mean to say that it's no surprise that protein folding and image classification were relatively easily to automate with machine learning, whereas mathematical proof solving has not been. Perhaps 
 
-- bad incentives explain why people aren't contributing to wikis. they need to write papers, hoard data and ideas
-  - we're stuck in an inadequate equilbrium
+The kinds of projects which can be ea sily scaled seem to be the ones which only require someone with the aptitude of a curious undergraduate - this is not to say that such projects are worthless, but that they are a subset of worthwile scientific endevours [cut sentence]
+
+This 
+
+[^.2]: Though I should mention that Dennis Hackethal, cofounder of DeepMind, mentioned that they noticed that FoldIt players 
+
+bad incentives explain why people aren't contributing to wikis. they need to write papers, hoard data and ideas
+
+- - we're stuck in an inadequate equilbrium
   - ways to solve
     - change culture of reputation so it's part of their job to share shit
     - give grants, tenure based on engagement with oublic

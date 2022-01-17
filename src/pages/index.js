@@ -20,17 +20,19 @@ const Home = ({ data }) => {
   return (
     <Layout title="About" description={site.siteMetadata.description}>
       <Box maxWidth={9} mx="auto" px={[0, 0, 5]} alignItems="center">
-        <Flex as="header" mt={6} mb={5} px={3}>
+        <Flex as="header" mt={6} mb={2} px={3}>
           <Box flex="1 1 auto">
             <H1 fontSize={3} mb={0} lineHeight="copy">
               <Pronunciation />
             </H1>
-            <Text mb={0} measure="wide" fontSize={2}>
+
+            {/* <Text mb={0} measure="wide" fontSize={2}>
               dwarkesh@dwarkeshpatel.com
-            </Text>
+            </Text> */}
           </Box>
           <CycleMode />
         </Flex>
+        <ProfileLinks />
 
         <main>
           <Box as="section" mb={4} px={3}>
@@ -54,7 +56,6 @@ const Home = ({ data }) => {
             </Text>
             <Newsletter />
           </Box>
-          <ProfileLinks />
           <Flex flexWrap="wrap" justifyContent="space-between">
             <WritingFeatured posts={posts} mr={[3, 4]} />
             <PodcastFeatured podcast={podcast} mr={3} />

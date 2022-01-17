@@ -3,7 +3,7 @@ import { Box, Flex, Text, SimpleLink } from '@ds';
 import { CycleMode } from './cycle-mode';
 
 export const GlobalHeader = () => (
-  <Flex as="nav" mx="auto" my={6} alignItems={['flex-start', 'center']}>
+  <Flex as="nav" mx="auto" my={5} alignItems={['flex-start', 'center']}>
     <Box display={['block', 'flex']} alignItems="center">
       <SimpleLink
         to="/"

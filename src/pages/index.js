@@ -50,7 +50,7 @@ const Home = ({ data }) => {
             </Text>
             <Text measure="wide" fontSize={[2, 3]}>
               I graduated with a CS degree from UT Austin in December 2021.
-              Thanks to the generosity of Sunil and Anil Vazarani, I'm spending
+              Thanks to the generosity of Sunil and Anil Varanasi, I'm spending
               the next few months learning about big ideas and emerging
               technologies.
             </Text>

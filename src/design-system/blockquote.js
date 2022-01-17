@@ -3,15 +3,9 @@ import { compose, space, color, layout, flexbox, border } from 'styled-system';
 import { Text } from './typography';
 
 export const Blockquote = styled.blockquote`
-${compose(
-  space,
-  color,
-  layout,
-  flexbox,
-  border
-)}
-  border-left: 4px solid ${props => props.theme.colors.brand.main};
-  margin-left: ${props => -props.theme.space[3] - 4}px
+  ${compose(space, color, layout, flexbox, border)}
+  border-left: 4px solid ${(props) => props.theme.colors.brand.main};
+  margin-left: ${(props) => -props.theme.space[2] - 4}px;
 `;
 Blockquote.defaultProps = {
   as: 'blockquote',

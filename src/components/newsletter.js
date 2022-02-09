@@ -3,7 +3,7 @@ import { H3, Text, PrimaryButton, Box, Input, Flex, SrOnly } from '@ds';
 
 export const Newsletter = ({ post }) => (
   <Box
-    mb={3}
+    mb={5}
     maxWidth={post ? 7 : 6}
     mx={post ? 'auto' : 0}
     as="form"
